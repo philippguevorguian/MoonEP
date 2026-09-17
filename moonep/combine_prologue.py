@@ -189,7 +189,6 @@ class CombinePrologueKernel:
             block=(self.num_threads, 1, 1),
             smem=smem_bytes,
             stream=stream,
-            cooperative=True,
         )
 
     # ----------------------------------------------------------------- kernel
