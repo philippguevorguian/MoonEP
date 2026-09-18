@@ -159,7 +159,6 @@ class DispatchEpilogueKernel:
             block=(self.num_threads, 1, 1),
             smem=smem_bytes,
             stream=stream,
-            cooperative=True,
             use_pdl=self.pdl_launch,
         )
 
